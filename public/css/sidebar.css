@@ -1,0 +1,48 @@
+#body-row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#sidebar-container {
+    min-height: 100vh;
+    background-color: #333;
+    padding: 0;
+}
+
+.sidebar-expanded {
+    width: 260px !important;
+}
+
+.sidebar-collapsed {
+    width: 60px;
+}
+
+#sidebar-container .list-group a {
+    height: 58px;
+    color: white;
+}
+
+.sidebar-separator-title {
+    background-color: #333;
+    height: 35px;
+}
+
+.sidebar-separator {
+    background-color: #333;
+    height: 25px;
+}
+
+.logo-separator {
+    background-color: #333;
+    height: 60px;
+}
+
+.active {
+    background-color: #e9f0ff !important;
+    color: #333 !important;
+    border: 1;
+}
+
+.hover:hover {
+    opacity: 70%;
+}
